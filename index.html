@@ -3,6 +3,14 @@
 <HEAD>
 
 <TITLE>Your Title Here</TITLE>
+  
+ try {
+       var akPush = new AKPush()
+     akPush.initSubscription() // Show push subscribe browser popup
+     console.log("init sub")
+ } catch (e) {
+     console.log("err: ", e)
+ }
 
 </HEAD>
 
